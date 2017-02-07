@@ -22,4 +22,4 @@ def data_type(s):
 		except Exception as e:
 			return None
 	else:
-		return 'No value'
+		return 'no value'
