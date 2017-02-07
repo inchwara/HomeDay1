@@ -14,4 +14,12 @@ def data_type(s):
 
 		else:
 			return 'more than 100'
-			
+
+	elif s_type == list:
+		try:
+			if s[2]:
+				return s[2]
+		except Exception as e:
+			return None
+	else:
+		return 'No value'
